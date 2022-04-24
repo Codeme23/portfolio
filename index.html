@@ -1,149 +1,259 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width,initial-scale=1.0">
-    <title>Portfolio | Srinivas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  </head>
-  <body>
-    <div class="wrapper">
-    <nav>
-      <input type="checkbox" id="show-menu">
-      <label for="show-menu" class="menu-icon"><i class="bi bi-justify" aria-hidden="true"></i></label>
-      <div class="content">
-        <div class="logo"><a href="#">Srinivas</a></div>
-        <ul class="links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skill">Skills</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><div class="themeSwitch"></div></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <section class="banner" id="banner">
-    <div class="content">
-      <div class="imgBx">
-        <img src="img/mypic1.jpg" height="400" width="300" alt="srinivas">
-      </div>
-      <h3>Srinivas Rao</h3>
-      <p>I'm a Creative Full Stack Devloper.</p>
-      <a href="#" class="btn">View Resume</a>
-      <ul class="socialMedia">
-        <li><a href="" target="_blank"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
-        <li><a href="" target="_blank"><i class="bi bi-github" aria-hidden="true"></i></a></li>
-        <li><a href="" target="-_blank"><i class="bi bi-instagram" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-  </section>
-  <!-- about -->
-  <section class="abut adjust" id="about">
-    <div class="title">
-      <h2>About Me</h2>
-    </div>
-    <div class="content">
-      <div class="textBox">
-        <p><strong>W</strong>elocome <strong>t</strong>o <strong>m</strong>y <strong>P</strong>ortfolio</strong><br><br><q><strong>I</strong> am <strong>Srinivas Rao</strong>TO become a successful professional by working with dedication and commitment in as esteemed organization where I can put my knowledge and enthusiasm for growth of the Organization and expend my potential to the maximum.<br><br>I enjoy creating beautifully designed, intuitive and functional websites. I have just learned some languages and want to learn many more and want to get a lot of knowledge.
-</q></p>
-      </div>
-      <div class="imgBx">
-        <img src="img/mypic2.jpg" height="400px" width="300px" alt="Srinivas">
-      </div>
-    </div>
-  </section>
-  <!-- Skills -->
-  <section class="skill adjust" id="skill">
-    <div class="title">
-      <h2>Skills</h2>
-    </div>
-    <div class="skillBox">
-      <img src="https://i.ibb.co/BchWFNM/html.png" alt="">
-      <h2>HTML</h2>
-    </div>
-    <div class="skillBox">
-      <img src="https://i.ibb.co/ScQF8WD/css-3.png" alt="">
-      <h2>CSS</h2>
-    </div>
-    <div class="skillBox">
-      <img src="https://i.ibb.co/9qX1qFZ/javascript.png" alt="">
-      <h2>JAVASCRIPT</h2>
-    </div>
-    <div class="skillBox">
-      <img src="https://i.ibb.co/4psTVvL/vscode1.png" alt="">
-      <h2>VSCODE</h2>
-    </div>
-    <div class="skillBox">
-      <img src="" alt="">
-      <h2>INTELIDJ</h2>
-    </div>
-    <div class="skillBox">
-      <img src="" alt="">
-      <h2>JAVA</h2>
-    </div>
-    <div class="skillBox">
-      <img src="https://i.ibb.co/Jprwzmq/react.png" alt="">
-      <h2>REACT</h2>
-    </div>
-    <div class="skillBox">
-      <img src="https://www.linkpicture.com/q/mongo2.svg" alt="">
-      <h2>MONGODB</h2>
-    </div>
-    <div class="skillBox">
-      <img src="https://www.linkpicture.com/q/bootstrap-fill.svg" alt="">
-      <h2>Bootstrap</h2>
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to portfolio |Srinivas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+            <div>
+            <a href="#" class="nav__logo">Srinivas</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"> <a href="#project" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+      <!-- home -->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <div class="home__img">
+               <img src="img\mypic1.jpg" alt="srinivas"> 
+            </div>
+            <h1 class="home__title">Satya Srinivas</h1>
+            <span class="home__profession">Full Stack Devloper</span>
+            <div class="home__social">
+              <a href="#" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+              <a href="#" class="home__social-link"><i class='bx bxl-github'></i></a>
+              <a href="#" class="home__social-link"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <a download="" href="#" class="button home__button">Download Resume</a>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <section class="about section" id="about">
+        <span class="section-subtitle">My introduction</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <p class="about__discription">Hi, I am a FULL STACK WEB DEVLOPER,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero maxime laudantium officia iusto, porro illo velit veritatis sapiente voluptas tempore ad, nam ipsa eos ipsum soluta neque, ducimus quo quaerat?</p>
+            <img src="img/mypic2.jpg" alt="srinivas-pic" class="about__img">
+          </div>
+          <div>
+          <div class="about__information">
+            <h3 class="about__information-title">Information</h3>
+            <div class="about__information-data">
+              <i class='bx bx-user about__information-icon'></i>
+              <span>Satya Srinivas</span>
+            </div>
 
-  </section>
-  <!--  -->
-  <section class="Project adjust" id="project">
-    <div class="title">
-      <h2>Projects</h2>
-    </div class="content">
-      <a href="#" class="projectBx">
-        <div class="imgBx">
-          <img src="" alt="">
+            <div class="about__information-data">
+              <i class='bx bx-phone about__information-icon'></i>
+              <span>+91 6281579828</span>
+            </div>
+
+            <div class="about__information-data">
+              <i class='bx bx-envelope about__information-icon'></i>
+              <span>Satyas184477@gmail.com</span>
+            </div>
+          </div>
+          <div class="about__information">
+            <h3 class="about__information-title">Experience and Support</h3>
+
+            <div class="about__information-data">
+              <i class='bx bx-medal about__information-icon'></i>
+              <div>
+                <span class="about__information-subtitle">Fresher</span>
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="textBx">
-          <h3></h3>
+      </section>
+      <!-- skills -->
+      <section class="skills section" id="skills">
+        <span class="section-subtitle">Why Choose Me</span>
+        <h2 class="section-title">My Expertise Area</h2>
+        <div class="skills__container bd-grid">
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Full Stack Devloper</h3>
+
+            <div class="skills__data">
+              <span class="skills__name">Html/css</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__html"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">JavaScript</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__js"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">React</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__react"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">dsa/java</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__dsa"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">Bootstrap</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__bs"></span>
+            </div>
+          </div>
         </div>
-      </a>
-    <a href="#" class="projectBx">
-      <div class="imgBx">
-        <img src="" alt="">
-      </div>
-      <div class="textBx">
-        <h3></h3>
-      </div>
-    </a>
-    <a href="#" class="projectBx">
-      <div class="imgBx">
-        <img src="" alt="">
-      </div>
-      <div class="textBx">
-        <h3></h3>
-      </div>
-    </a>
-  </section>
-  <!-- footer -->
-  <footer class="content adjust" id=contact>
-    <div class="title">
-      <h2>contact</h2>
-    </div>
-    <ul>
-      <li><a href="" target="_blank"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
-      <li><a href="" target="_blank"><i class="bi bi-twitter" aria-hidden="true"></i></a></li>
-      <li><a href="" target="_blank"><i class="bi bi-envelope-fill" aria-hidden="true"></i></i></a></li>
-      <li><a href="" target="-_blank"><i class="bi bi-facebook" aria-hidden="true"></i></a></li>
-      <li><a href="" target="-_blank"><i class="bi bi-instagram" aria-hidden="true"></i></a></li>
-      <li><a href="" target="-_blank"><i class="bi bi-whatsapp" aria-hidden="true"></i></a></li>
-    </ul>
-  </footer>
-  <div class="copyright">
-    <p>No Copyright issues - Srinivas Rao</p>
-  </div>
-  </body>
+      </section>
+      <!-- Education -->
+      <section class="education section" id="education">
+        <span class="section-subtitle">Qualification</span>
+        <h2 class="section-title">My Education</h2>
+
+        <div class="education__container bd-grid">
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2018-2021</h3>
+              <span class="education__university">Krishna university</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">B.Sc(Hons)</h3>
+              <span class="education__speciality">Electronics and ComputerScience</span>
+            </div>
+
+          </div>
+
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2016-2018</h3>
+              <span class="education__university">Sri Chaitanya jr college</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Intermediate</h3>
+              <span class="education__speciality">MPC</span>
+            </div>
+
+          </div>
+
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2015-2016</h3>
+              <span class="education__university">Sri Prathiba High School</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <span class="education__speciality">10<sup>th</sup></span>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- projects -->
+      <section class="project section" id="project">
+        <div class="project__container bd-grid">
+          <div class="project__data">
+            <h2 class="section-title project__title">Do you have any project in mind</h2>
+            <p class="project__description">This projects that represents my knowledge</p>
+            <a href="#contact" class="button button__light">Contact</a>
+          </div>
+          <img src="img/p1.png" alt="project1">
+        </div>
+      </section>
+      <!-- contact -->
+       <section class="contact section" id="contact">
+         <span class="section-subtitle">Contact Me</span>
+         <h2 class="section-title">Get in touch</h2>
+
+         <div class="contact__container bd-grid">
+           <form action="" class="contact__form">
+             <div class="contact__inputs">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+             </div>
+
+             <input type="text" placeholder="Project" class="contact__input">
+             
+             <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+             <input type="submit" value="send Message" class="button contact__button">
+           </form>
+           <div>
+           <div class="contact__info">
+             <h3 class="contact__subtitle">Call me</h3>
+             <span class="contact__text">6281579828</span><br>
+             <span class="contact__text">6281579828</span>
+           </div>
+
+           <div class="contact__info">
+             <h3 class="contact__subtitle">E-mail</h3>
+             <span class="contact__text">Satyas184477@gmail.com</span><br>
+             <span class="contact__text">sr02999@gmail.com</span>
+           </div>
+
+           <div class="contact__info">
+             <h3 class="contact__subtitle">Adress</h3>
+             <span class="contact__text">undavalli(rural)</span><br>
+             <span class="contact__text">AndhraPradesh</span>
+           </div>
+         </div>
+       </div>
+       </section>
+       <!-- footer -->
+       <footer class="footer section">
+         <div class="footer__container bd-grid">
+           <h1 class="footer__title">Srinivas</h1>
+           <p class="footer__description">I am srinivas and this is my personal portfolio.Counsult me from here</p>
+
+           <div class="footer__social">
+             <a href="#" class="footer__link"><i class="bx bxl-facebook"></i></a>
+             <a href="#" class="footer__link"><i class="bx bxl-instagram"></i></a>
+             <a href="#" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+           </div>
+           <p class="footer__copy">No copy rights reserved</p>
+         </div>
+       </footer>
+    </main>
+    <script src="js/main.js"></script>
+</body>
 </html>
